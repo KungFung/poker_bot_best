@@ -12,7 +12,7 @@ from pydantic import (
 
 from card_utils import Card
 from game_state import GameStateView, InvalidAction
-from model import Model
+from model_random import Model
 from player_action import PlayerAction
 
 

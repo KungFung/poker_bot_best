@@ -361,7 +361,7 @@ def test_GI04_end_game_not_called_by_other_methods():
 
 def test_GI05_template_model_end_game():
     """GI-05: the model.py template plays through GameInterface and its end_game runs without error; seed() sets the per-hand fields again next hand."""
-    from model import Model
+    from model_random import Model
 
     model = Model()
     gi, _ = _gi(model)

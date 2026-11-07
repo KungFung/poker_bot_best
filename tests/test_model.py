@@ -18,7 +18,7 @@ from arena.dummies import DUMMIES
 from arena.match import MatchConfig, play_match
 from arena.players import player
 from evals.score import score
-from model import Model
+from model_random import Model
 
 
 @pytest.fixture(scope="module")
